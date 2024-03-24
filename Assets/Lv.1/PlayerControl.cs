@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
@@ -21,5 +22,13 @@ public class PlayerControl : MonoBehaviour
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
 
         rb.AddForce(movement);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Item"))
+        {
+            other.gameObject.SetActive(false);
+        }
     }
 }
