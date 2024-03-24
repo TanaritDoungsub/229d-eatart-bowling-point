@@ -30,10 +30,5 @@ public class PlayerControl : MonoBehaviour
         {
             other.gameObject.SetActive(false);
         }
-
-        if (other.gameObject.tag == "Item") 
-        {
-            ScoreManager.scoreCount += 1;
-        }
     }
 }
