@@ -11,7 +11,7 @@ public class ScoreManager : MonoBehaviour
     void Start()
     {
         ScoreNum = 0;
-        MyscoreText.text = "Score : " + ScoreNum;
+        MyscoreText.text = "Score : " + ScoreNum;   
     }
 
     private void OnTriggerEnter(Collider Item)

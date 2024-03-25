@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.07229945, g: 0.050654814, b: 0.034133077, a: 1}
+  m_IndirectSpecularColor: {r: 0.071895406, g: 0.05023009, b: 0.033828706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -275,7 +275,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -136.93}
+  m_AnchoredPosition: {x: 0, y: -199}
   m_SizeDelta: {x: 386.4645, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &494530107
@@ -750,8 +750,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4365, y: 168.77}
-  m_SizeDelta: {x: 632.8, y: 120}
+  m_AnchoredPosition: {x: 21968.9, y: 231}
+  m_SizeDelta: {x: 3181.5, y: 137.53}
   m_Pivot: {x: 4.83, y: 1.1}
 --- !u!114 &2036442983
 MonoBehaviour:
@@ -786,13 +786,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Pongsarit Kaewkamsorn 1650702143 GI204 No.6 Artist GameDesign
-
-
-    Tanarit
-    Doungsub 1650707324 No.35 Programmer GameDesign
-
-'
+  m_Text: "\u0E1E\u0E07\u0E28\u0E4C\u0E2A\u0E24\u0E29\u0E14\u0E34\u0E4C \u0E40\u0E40\u0E01\u0E49\u0E27\u0E04\u0E33\u0E2A\u0E2D\u0E19
+    1650702143 GI204 No.6 \u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E48 Artist GameDesign\n\n\u0E18\u0E19\u0E24\u0E17\u0E18\u0E34\u0E4C
+    \u0E14\u0E27\u0E07\u0E17\u0E23\u0E31\u0E1E\u0E22\u0E4C 1650707324 No.35 \u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E48
+    Programmer GameDesign\n\nAssets : www.flickr.com / www.canvasartrocks.com / unblast.com
+    / www.onlygfx.com"
 --- !u!222 &2036442984
 CanvasRenderer:
   m_ObjectHideFlags: 0
